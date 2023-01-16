@@ -27,9 +27,8 @@ namespace Task_02
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int a = int.Parse(TextBox.Text);
-            a = a * a;
-            TextBox.Text = a.ToString();
+            int a = int.Parse(textBox.Text);
+            textBox.Text = (a*a).ToString();
         }
     }
 }

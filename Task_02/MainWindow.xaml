@@ -14,7 +14,7 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox Grid.Row="0" Width="100" Height="30" Name="TextBox" VerticalAlignment="Bottom" Margin="5"/>
+        <TextBox Grid.Row="0" Width="100" Height="30" Name="textBox" VerticalAlignment="Bottom" Margin="5"/>
         <Button Grid.Row="1" Width="100" Height="100" Click="Button_Click"
                 Content="PUSH" Background="Green" VerticalAlignment="Top" Margin="5"/>
     </Grid>
