@@ -24,5 +24,10 @@ namespace Task_01
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("You pushed this button");
+        }
     }
 }

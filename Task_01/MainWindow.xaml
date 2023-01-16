@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Task_01"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Canvas>
+        <Button Width="100" Height="100" Canvas.Left="350" Canvas.Top="167" Click="Button_Click"
+                Content="PUSH" Background="Green"/>
+    </Canvas>
 </Window>
